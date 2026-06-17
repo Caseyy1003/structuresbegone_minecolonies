@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "structuresbegone_minecolonies",
+        "description": "Removes structure generation for Mine Colonies",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Caseyy1003'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
